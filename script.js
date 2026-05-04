@@ -38,8 +38,27 @@
 // let abc = 12
 // console.log(abc instanceof Number)
 
-let count = 5
-if(count-- === 5) 
-    console.log("Matched")
-else 
-    console.log("Not Matched")
+// --------------------------------------------------------
+
+// Rock Paper Scissors -> I need simple 3 variables and user choice for it
+
+const user = prompt("Enter only in R, P, S")
+const choices = ['R', 'P', 'S']
+const robot = choices[Math.floor(Math.random()*choices.length)]
+function rps (user, robot) {
+    if(user == robot) {
+        console.log("Tie");
+    }
+    else if(
+        (user == 'R' && robot == 'S') || 
+        (user == 'P' && robot == 'R') || 
+        (user == 'S' && robot == 'P')
+    ) {
+        console.log('You win');
+    }
+    else {
+        console.log("Robot wins");
+    }
+}   
+
+rps(user, robot)
