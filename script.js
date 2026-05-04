@@ -31,5 +31,15 @@
 
 // NaN is a failed number operation 
 
+
 // ---------------------------------------------------------
 
+// instanceof is basically child coming from a generation
+// let abc = 12
+// console.log(abc instanceof Number)
+
+let count = 5
+if(count-- === 5) 
+    console.log("Matched")
+else 
+    console.log("Not Matched")
