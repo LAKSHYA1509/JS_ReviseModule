@@ -28,4 +28,8 @@
  // Dynamic typing -> js mein static typing nahi hai and yaha par hai dynamic typing jiska matlab hai aap data ko change kar sakte hai kyuki yaha par dynamic data types hai
 
  // + to sirf concat kar sakta hai sirf isliye string and number ka aapas mein khela hobe
- 
+
+// NaN is a failed number operation 
+
+// ---------------------------------------------------------
+
