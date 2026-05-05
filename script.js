@@ -71,10 +71,30 @@ rps(user, robot)
 
 // For loop questions
 
-let val = prompt("all right you son of a bi...")
-if (val < 1) console.log("number smaller")
+// let val = prompt("all right you son of a bi...")
+// if (val < 1) console.log("number smaller")
 
-    for(let i = 0; i <= val; i++) {
-        if(i%2==0) console.log(i + " is even")
-        else console.log(i + " is odd")
-    }
+//     for(let i = 0; i <= val; i++) {
+//         if(i%2==0) console.log(i + " is even")
+//         else console.log(i + " is odd")
+//     }
+
+
+// --------------------------------------------------------
+
+// Functions
+
+// Ways to Make Functions then:-
+// 1. function abc() {}
+// 2. let fnc = function () {} is called function expression
+
+// --------------------------------------------------------
+// fat arrow fnc
+// let fnc = () => {console.log()}
+
+function dance(animal) {
+    console.log(`${animal} is in animal kingdom`)
+}
+
+dance("human")
+dance("dog")
