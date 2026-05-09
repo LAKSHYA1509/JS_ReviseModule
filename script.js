@@ -182,7 +182,19 @@ rps(user, robot)
 
 // BMI calculator
 
-function bmi(weight, height) {
-    return weight / (height * height);
+// function bmi(weight, height) {
+//     return weight / (height * height);
+// }
+// console.log((bmi(69 , 1.7)).toFixed(2))
+
+// --------------------------------------------------------
+
+// Reusable discount calculator by HOF
+function discountCalculator(discount) {
+    return function(price) {
+        return price - (price * (discount / 100))
+    }
 }
-console.log((bmi(69 , 1.7)).toFixed(2))
+
+let discounter = discountCalculator(10)
+console.log(discounter(200))
