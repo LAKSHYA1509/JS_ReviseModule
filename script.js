@@ -126,10 +126,10 @@ rps(user, robot)
 
 // pure vs impure functions
 // aisa fnc jo ki bahar ki value ko na badle that is pure
-    // let a = 12;
-    // function abcd () {
-    //     console.log("hehehe")
-    // }
+// let a = 12;
+// function abcd () {
+//     console.log("hehehe")
+// }
 
 // vice versa is impure 
 
@@ -152,9 +152,9 @@ rps(user, robot)
 // --------------------------------------------------------
 
 // IiFE
-    // (function() {
+// (function() {
 
-    // })()
+// })()
 
 // --------------------------------------------------------
 
@@ -169,11 +169,20 @@ rps(user, robot)
 
 // --------------------------------------------------------
 // Use Rest parameter to accept any number of scores and return the total
-function getScore(... scores) {
-    let total = 0;
-    scores.forEach(function(val) {
-        total = total + val;
-    })
-    return total;
+// function getScore(... scores) {
+//     let total = 0;
+//     scores.forEach(function(val) {
+//         total = total + val;
+//     })
+//     return total;
+// }
+// console.log(getScore(10, 12, 14, 18))
+
+// --------------------------------------------------------
+
+// BMI calculator
+
+function bmi(weight, height) {
+    return weight / (height * height);
 }
-console.log(getScore(10, 12, 14, 18))
+console.log((bmi(69 , 1.7)).toFixed(2))
