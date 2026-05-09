@@ -90,7 +90,9 @@ rps(user, robot)
 
 // --------------------------------------------------------
 // fat arrow fnc
-// let fnc = () => {console.log()}
+// let fnc = () => {
+// console.log()
+//}
 
 
 // function dance(animal) {
@@ -153,3 +155,14 @@ rps(user, robot)
     // (function() {
 
     // })()
+
+// --------------------------------------------------------
+
+// convert this to arrow 
+// function multiply(a, b) {
+//     return a*b;
+// }
+
+// let multiply = (a, b) => {
+//     return a*b;
+// } 
