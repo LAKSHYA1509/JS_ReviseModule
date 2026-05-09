@@ -139,9 +139,17 @@ rps(user, robot)
 
 // closures -> ek fnc jo return karein ek aur function aur return hone wala function hamesha use karega parent fnc ka koi variable.
 
-function abcd() {
-    let a = 12;
-    return function() {
-        console.log(a);
-    }
-}
+// function abcd() {
+//     let a = 12;
+//     return function() {
+//         console.log(a);
+//     }
+// }
+// abcd()()
+
+// --------------------------------------------------------
+
+// IiFE
+    // (function() {
+
+    // })()
