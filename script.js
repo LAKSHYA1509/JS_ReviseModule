@@ -108,3 +108,14 @@ rps(user, robot)
 // add(1 , 2)
 
 
+// --------------------------------------------------------
+
+// hof wo function hota hai jo ki return kare function ya fir accept kare ek fnc apne parameter mein
+
+function abcd() {
+    return function () {
+        console.log("bnasbnebfrewrbf")
+    }
+}
+
+abcd()()
