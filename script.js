@@ -118,4 +118,5 @@ function abcd() {
     }
 }
 
-abcd()()
+abcd()(); // ek aur () jo internal function return karwata hai
+
