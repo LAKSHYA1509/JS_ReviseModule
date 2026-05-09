@@ -112,11 +112,36 @@ rps(user, robot)
 
 // hof wo function hota hai jo ki return kare function ya fir accept kare ek fnc apne parameter mein
 
+// function abcd() {
+//     return function () {
+//         console.log("bnasbnebfrewrbf")
+//     }
+// }
+
+// abcd()(); // ek aur () jo internal function return karwata hai
+
+// --------------------------------------------------------
+
+// pure vs impure functions
+// aisa fnc jo ki bahar ki value ko na badle that is pure
+    // let a = 12;
+    // function abcd () {
+    //     console.log("hehehe")
+    // }
+
+// vice versa is impure 
+
+// function hui() {
+//     a++;
+// }
+
+// --------------------------------------------------------
+
+// closures -> ek fnc jo return karein ek aur function aur return hone wala function hamesha use karega parent fnc ka koi variable.
+
 function abcd() {
-    return function () {
-        console.log("bnasbnebfrewrbf")
+    let a = 12;
+    return function() {
+        console.log(a);
     }
 }
-
-abcd()(); // ek aur () jo internal function return karwata hai
-
