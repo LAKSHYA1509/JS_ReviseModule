@@ -92,9 +92,19 @@ rps(user, robot)
 // fat arrow fnc
 // let fnc = () => {console.log()}
 
-function dance(animal) {
-    console.log(`${animal} is in animal kingdom`)
-}
 
-dance("human")
-dance("dog")
+// function dance(animal) {
+//     console.log(`${animal} is in animal kingdom`)
+// }
+
+// dance("human")
+// dance("dog")
+
+
+// function add(v1, v2) {
+//     console.log(v1 + v2)
+// }
+
+// add(1 , 2)
+
+
